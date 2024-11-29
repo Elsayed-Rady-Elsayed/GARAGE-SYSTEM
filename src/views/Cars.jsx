@@ -10,6 +10,18 @@ const Cars = () => {
           <th className="border">type</th>
           <th className="border">model</th>
           <th className="border">plate number</th>
+          <th className="border">plate code</th>
+          <th className="border">out door</th>
+          <th className="border">monthly subscription</th>
+        </tr>
+        <tr key="" className="border">
+          <td className="border text-center">elsayed</td>
+          <td className="border text-center">hyndai</td>
+          <td className="border text-center">2011</td>
+          <td className="border text-center">3000</td>
+          <td className="border text-center">ق ب ح</td>
+          <td className="border text-center">true</td>
+          <th className="border text-center">valid</th>
         </tr>
       </table>
     </div>
