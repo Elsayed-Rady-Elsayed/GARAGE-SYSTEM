@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./views/Home";
-import Cars from "./views/Cars";
+import Cars from "./views/cars/Cars";
 import Motorcycle from "./views/Motorcycle";
 import Customers from "./views/Customers";
+import AddCar from "./views/cars/AddCar";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         />
         <Route path="/" element={<Home />}>
           <Route path="cars" element={<Cars />} />
+          <Route path="addCar" element={<AddCar />} />
           <Route path="motorcycle" element={<Motorcycle />} />
           <Route path="customers" element={<Customers />} />
         </Route>

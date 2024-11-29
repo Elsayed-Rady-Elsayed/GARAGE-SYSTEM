@@ -1,9 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cars = () => {
   return (
     <div className="flex-1 md:p-5">
-      <h2>cars</h2>
+      <div className="flex justify-between mb-5">
+        <h2 className="text-3xl font-bold">cars</h2>
+        <Link to={"/addCar"} className="bg-slate-500 text-white p-2 rounded-md">
+          add new car
+        </Link>
+      </div>
       <table className="table-auto border w-full border-collapse">
         <tr className="border">
           <th className="border">owner</th>
@@ -21,7 +27,7 @@ const Cars = () => {
           <td className="border text-center">3000</td>
           <td className="border text-center">ق ب ح</td>
           <td className="border text-center">true</td>
-          <th className="border text-center">valid</th>
+          <td className="border text-center">valid</td>
         </tr>
       </table>
     </div>
