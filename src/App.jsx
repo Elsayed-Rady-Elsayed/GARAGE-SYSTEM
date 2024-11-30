@@ -3,8 +3,9 @@ import Home from "./views/Home";
 import Cars from "./views/cars/Cars";
 import Motorcycle from "./views/Motorcycle/Motorcycle";
 import AddMotor from "./views/Motorcycle/AddMotor";
-import Customers from "./views/Customers";
+import Customers from "./views/customers/Customers";
 import AddCar from "./views/cars/AddCar";
+import AddCustomer from "./views/customers/AddCustomer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="motorcycle" element={<Motorcycle />} />
           <Route path="addMotor" element={<AddMotor />} />
           <Route path="customers" element={<Customers />} />
+          <Route path="addCustomer" element={<AddCustomer />} />
         </Route>
       </Routes>
     </div>
