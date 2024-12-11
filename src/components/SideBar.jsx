@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const SideBar = () => {
@@ -6,7 +5,7 @@ const SideBar = () => {
     "bg-slate-200 p-2 rounded-md border border-transparent hover:bg-transparent hover:border hover:border-slate-200";
   return (
     <div className="flex flex-col gap-5 p-5 bg-slate-100 w-[20%] h-[100vh]">
-      <Link to={"/"} className={linkStyle}>
+      <Link to={"/home"} className={linkStyle}>
         home
       </Link>
       <Link to={"/cars"} className={linkStyle}>

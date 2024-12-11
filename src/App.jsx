@@ -6,6 +6,7 @@ import AddMotor from "./views/Motorcycle/AddMotor";
 import Customers from "./views/customers/Customers";
 import AddCar from "./views/cars/AddCar";
 import AddCustomer from "./views/customers/AddCustomer";
+import HomeInternal from "./views/home/Home";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           }
         />
         <Route path="/" element={<Home />}>
+          <Route path="home" element={<HomeInternal />} />
           <Route path="cars" element={<Cars />} />
           <Route path="addCar" element={<AddCar />} />
           <Route path="motorcycle" element={<Motorcycle />} />

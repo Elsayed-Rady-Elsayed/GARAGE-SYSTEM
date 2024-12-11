@@ -1,5 +1,3 @@
-import React from "react";
-
 const AddCustomer = () => {
   return (
     <div className="p-5 w-full">
